@@ -5,7 +5,13 @@ from scrapingant_client import ScrapingAntClient
 url = "https://app.careerfairplus.com/gt_ga/fair/3990"
 
 # Create a ScrapingAntClient instance
-client = ScrapingAntClient(token='57278df6b3e94ab189cf9cf2d8169947')
+token = ""
+
+with open("token.txt") as f:
+    token = f.readline().rstrip()
+
+
+client = ScrapingAntClient(token=token)
 
 # Get the HTML page rendered content
 page_content = client.general_request(url).content
