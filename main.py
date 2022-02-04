@@ -1,3 +1,4 @@
+from operator import contains
 from bs4 import BeautifulSoup
 from scrapingant_client import ScrapingAntClient
 
@@ -52,9 +53,19 @@ for comp in level_rows:
 present_comps = []
 
 for name in range(len(company_names)):
+    tempName = ""
+    
     salary = level_comps.get(company_names[name])
     if salary != None:
         present_comps.append([company_names[name],salary])
+    else:
+        for key in level_comps.keys():
+            if key in company_names[name]:
+                tempName = key
+                salary = level_comps.get(key)
+                present_comps.append([company_names[name],salary])
+                break
+        
 
 present_comps = sorted(present_comps,key=lambda x : x[1], reverse=True)
 
