@@ -1,0 +1,50 @@
+Optiver : 90.63
+Five Rings : 87.5
+Akuna Capital : 84.13
+Citadel : 84.12
+Two Sigma : 70.0
+Capital One : 58.17
+Intel : 56.0
+BlackRock : 55.28
+Apple : 54.0
+Apple : 54.0
+Salesforce : 54.0
+Morgan Stanley : 52.88
+Amazon Robotics : 52.72
+Amazon : 52.72
+Palantir : 52.5
+Citi : 50.58
+SIG : 50.0
+SIG : 50.0
+Applied Intuition : 50.0
+Goldman Sachs : 48.17
+Hewlett Packard Enterprise : 43.0
+Cisco (Meraki) : 37.81
+Credit Suisse : 36.0
+KPMG : 30.0
+John Deere : 27.73
+Neocis : 21.0
+
+Not Found:
+AQR
+BD
+Bridgewater Associates
+Bristol Myers Squibb
+Capstone Investment Advisors
+D. E. Shaw & Co.
+Software Development
+Systems Technologist
+Software Developer Intern
+Quantitative Trading Intern
+Grindr
+Iomaxis
+NRO
+Procter & Gamble
+Putnam Investments
+Volvo
+Voloridge Investment Management
+GE Appliances
+KeyBank
+Bessemer Fellowship Program
+IMC
+Tower Research Capital
